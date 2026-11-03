@@ -1,0 +1,23 @@
+node_modules/
+.pnpm-store/
+dist/
+*.tsbuildinfo
+*.log
+.DS_Store
+
+# Reference clones managed by scripts/sync-reference-repos.ts.
+.repos/
+
+.alchemy/
+.wrangler/
+.tanstack/
+.output/
+.vitest-*
+
+# T3 Code worktree state and setup markers.
+.t3/
+.audit/
+
+.env
+.env.*
+!.env.example
